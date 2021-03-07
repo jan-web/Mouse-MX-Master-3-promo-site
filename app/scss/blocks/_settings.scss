@@ -1,0 +1,24 @@
+.settings {
+  padding-top: 70px;
+  background: #EDEDED;
+
+  &__descr {
+    margin: 20px auto 35px auto;
+    width: 308px;
+  }
+  &__slider {
+    margin: 0px 22px 95px 23px;
+  }
+  &__app {
+    min-height: 155px;
+    background: #C4C4C4;
+    padding: 23px;
+  }
+  &__appicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+
+}

@@ -1,0 +1,19 @@
+.bluetooth {
+  padding-top: 42px;
+  padding-bottom: 18px;
+  &__icon {
+    margin-bottom: 27px;
+  }
+  &__descr {
+    margin: 20px auto 31px auto;
+    width: 308px;
+  }
+  &__iconimg {
+    width: 18px;
+    height: 34px;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+  }
+}

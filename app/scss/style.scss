@@ -1,0 +1,24 @@
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, p, ul, ol {
+	margin: 0;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+@import 'blocks/atomic.scss';
+@import 'blocks/titles.scss';
+@import 'blocks/description.scss';
+@import 'blocks/top.scss';
+@import 'blocks/bluetooth.scss';
+@import 'blocks/info.scss';
+@import 'blocks/flow.scss';
+@import 'blocks/settings.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/_media768.scss';
+@import 'blocks/_media1024.scss';

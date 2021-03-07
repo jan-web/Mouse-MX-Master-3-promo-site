@@ -1,0 +1,19 @@
+.flow {
+  padding-top: 70px;
+  &__descr {
+    width: 308px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 36px;
+  }
+  &__instruction {
+    min-height: 375px;
+  }
+  &__list {
+    width: 308px;
+    margin: 0 auto;
+  }
+  &__img {
+    width: 100%;
+  }
+}
