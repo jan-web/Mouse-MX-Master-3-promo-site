@@ -1,9 +1,11 @@
 .footer {
-  min-height: 75px;
-  background: #2F3132;
-  &__descr {
-    width: 95px;
-    padding-top: 22px;
-    margin: 0 auto;
+  background-color: #2f3132;
+  padding: 22px 0 37px;
+  & .description {
+    font-size: 7px;
+    line-height: 8px;
+    color: #c7c8c8;
+    margin: 0 145px 0;
   }
 }
+

@@ -1,21 +1,18 @@
+
 .title {
-  font-style: normal;
   font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   text-align: center;
-  color: #2F3132;
+  margin-bottom: 20px;
+}
+
+.days {
+  font-weight: 900;
+  font-size: 4.3rem;
+  line-height: 5rem;
+  text-align: center;
   text-transform: uppercase;
-  &__bluetooth {
-    font-size: 60px;
-    line-height: 70px;
-    color: #C4C4C4;
-  }
-  &__infosurf {
-    font-size: 14px;
-    line-height: 16px;
-    color: #2F3132;
-    margin-top: 27px;
-    margin-bottom: 70px;
-      }
+  color: #c4c4c4;
+  margin-bottom: 0;
 }

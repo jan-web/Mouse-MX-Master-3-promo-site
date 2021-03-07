@@ -1,12 +1,27 @@
-.flex-center {
-  display: flex;
-  justify-content: center;
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
 }
 
-.mb70 {
-  margin-bottom: 70px;
+html {
+    font-size: 14px;
+    line-height: 16px;
 }
 
-.ml37 {
-  margin-left: auto;
+img {
+    padding: 0;
+    margin: 0;
+    background-color: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2f3132;
 }

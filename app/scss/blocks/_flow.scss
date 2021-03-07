@@ -1,19 +1,29 @@
 .flow {
-  padding-top: 70px;
-  &__descr {
-    width: 308px;
-    margin: 0 auto;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 718px;
+  background: url(../images/img/MXLifestyle1.png), #ededed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  & .title {
+    text-align: center;
+    margin: 70px 0 20px;
+  }
+  & .description {
+    max-width: 22rem;
     margin-bottom: 36px;
   }
-  &__instruction {
-    min-height: 375px;
+  &__list {
+    list-style-position: inside;
+    padding: 0 97px 0 54px;
   }
   &__list {
-    width: 308px;
-    margin: 0 auto;
+    list-style-position: inside;
+    padding: 0 97px 0 54px;
   }
-  &__img {
-    width: 100%;
+  &__list-item {
+    margin-bottom: 16px;
   }
 }
